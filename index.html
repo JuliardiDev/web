@@ -1,0 +1,57 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- Header navigation -->
+        <ul>
+            <li class="active">
+                <a href="">Home</a>                
+            </li>
+            <li>
+                <a href="">About Us</a>                
+            </li>
+            <li>
+                <a href="">Contact Us</a>                
+            </li>
+            <li class="register">
+                <a href="">Register / Sign In</a>                
+            </li>
+        </ul>
+
+
+    </body>
+</html>
+
+<style>
+    body{
+        margin: 0px;
+    }
+    ul{        
+        background-color: red;                         
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    ul > li{                
+        margin: 5px;
+        display: inline;
+    }
+    ul > li.register {
+        margin-left: 200px;
+    }
+    ul > li > a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    ul > li.active > a {
+        color: yellow;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover{
+        color: yellow;
+    }
+</style>
